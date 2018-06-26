@@ -1,3 +1,8 @@
+function randomIntFromInterval(min,max){
+
+    return Math.floor(Math.random() * (max-min+1) + min)
+}
+
 const carMakes = ['Honda','BMW','Skoda','Volvo','Fiat'];
 
 const carColors = ['lightgrey', 'lightcyan','lightyellow','lightgreen','lightcoral','lightpink'];
